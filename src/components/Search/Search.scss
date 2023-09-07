@@ -1,0 +1,35 @@
+.search {
+  position: relative;
+  input {
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 4px 0 0;
+    background: rgba(239, 238, 238, 0.251);
+    color: rgb(139, 136, 136);
+  }
+  button {
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: 32px;
+    padding: 0 5px;
+    background: rgba(213, 88, 21, 0.909);
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    &:hover {
+      background: rgb(150, 148, 148);
+    }
+  }
+  span {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    font-weight: bold;
+    color: red;
+  }
+}

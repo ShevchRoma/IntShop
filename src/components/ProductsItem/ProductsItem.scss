@@ -1,0 +1,113 @@
+.products {
+  &__item {
+    max-width: 280px;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 8px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+  &__img {
+    margin-bottom: 25px;
+    img {
+      width: 264px;
+      height: 280px;
+      border-radius: 12px;
+    }
+  }
+  &__title {
+    margin-bottom: 22px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  &__select {
+    padding: 6px 7px;
+    margin-bottom: 24px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    ul {
+      display: flex;
+      flex: 1;
+
+      &:first-of-type {
+        margin-bottom: 6px;
+      }
+
+      li {
+        padding: 8px;
+        flex: 1;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+        &.active {
+          background: #ffffff;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+          border-radius: 5px;
+          cursor: auto;
+        }
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  &__price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+    color: #000000;
+  }
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: linear-gradient(
+      90deg,
+      rgb(71, 72, 74) 0%,
+      rgb(212, 118, 29) 80%,
+      rgb(213, 95, 40) 10%,
+      rgb(212, 118, 29) 0%
+    );
+    border-radius: 30px;
+    width: 120px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+      background: rgb(153, 51, 4);
+      span {
+        color: red;
+      }
+    }
+    span {
+      font-size: 14px;
+      padding: 0 4px;
+      border-radius: 50%;
+      background: #fff;
+      color: rgb(227, 106, 51);
+    }
+    i {
+      display: flex;
+      align-self: center;
+      img {
+        height: 19px;
+        width: 19px;
+      }
+    }
+  }
+}

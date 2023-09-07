@@ -1,0 +1,13 @@
+@import "./styles/normalize\ 2.scss";
+.page {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+}

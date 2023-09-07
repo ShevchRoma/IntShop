@@ -1,0 +1,102 @@
+[
+    {
+     "id": "1",
+     "imageUrl": "chair.jpeg",
+     "name": "Стул",
+     "types": [
+      0,
+      1
+     ],
+     "sizes": [
+      70,
+      80,
+      90
+     ],
+     "price": 105,
+     "category": "chair",
+     "rating": 4
+    },
+    {
+     "id": "2",
+     "imageUrl": "stol.jpeg",
+     "name": "Стол",
+     "types": [
+      0,
+      1
+     ],
+     "sizes": [
+        70,
+        80,
+        90
+       ],
+     "price": 245,
+     "category": "Table",
+     "rating": 6
+    },
+    {
+        "id": "3",
+        "imageUrl": "comod.webp",
+        "name": "Комод",
+        "types": [
+         0
+        ],
+        "sizes": [
+           70,
+           80,
+           90
+          ],
+        "price": 345,
+        "category": "Comod",
+        "rating": 5
+       },
+       {
+        "id": "4",
+        "imageUrl": "shkaf.jpeg",
+        "name": "Шкаф",
+        "types": [
+         0,
+         1
+        ],
+        "sizes": [
+           70,
+           80,
+           90
+          ],
+        "price": 312,
+        "category": "Shkaf",
+        "rating": 2
+       },
+       {
+        "id": "5",
+        "imageUrl": "stol_imperator.jpeg",
+        "name": "Стол стекляный",
+        "types": [
+         0
+        ],
+        "sizes": [
+           70,
+           80,
+           90
+          ],
+        "price": 425,
+        "category": "Table",
+        "rating": 6
+       },
+       {
+        "id": "6",
+        "imageUrl": "mebel.jpg",
+        "name": "Тумба телевизионная",
+        "types": [
+         0,
+         1
+        ],
+        "sizes": [
+           70,
+           80,
+           90
+          ],
+        "price": 285,
+        "category": "Tumba",
+        "rating": 1
+       }
+]
